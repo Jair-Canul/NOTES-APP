@@ -17,5 +17,15 @@
 
 @layer components {
 
+  .icon-btn{
+    @apply text-xl text-slate-300 cursor-pointer hover:text-[#2B85FF];
+  }
+
+  .btn-primary{
+    @apply w-full text-sm bg-[#2B85FF] text-white p-2 rounded my-1 hover:bg-blue-600;
+  }
+  .input-label{
+    @apply text-xs text-slate-400;
+  }
 }
 
